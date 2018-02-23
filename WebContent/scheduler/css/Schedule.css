@@ -1,0 +1,57 @@
+@charset "EUC-KR";
+  #page-wrapper {
+    padding-left: 250px;
+  }
+  
+  #page-content-wrapper {
+    width: 90%;
+    padding: 20px;
+  }
+  
+  #aaa{
+  	margin-left : 53px !important;
+  }
+  
+  #calendar {
+    width: 95%;
+    padding: 50px;
+  }
+  
+  #bu{
+  	position: relative;
+    left: 35px;
+    width: 80px;
+	height: 30px;
+  	margin: 5px;
+  	padding: 5px;
+  }
+  
+  .line {
+  	display:inline-block;
+  	height:20px;
+  	border:1px solid #ccc;
+  	border-left:0;
+  }
+   .line span {
+   	position:absolute;
+   	top:0;
+   	right:-67px;
+   	width:60px;
+   	color:#767676;
+   	line-height:20px;
+   }
+   #a {
+   	background:#C90000;
+  	position:relative;
+  	left: 530px;
+   }
+   #b {
+   	background:#1F51B7;
+   	position:relative;
+  	left: 610px;
+   }
+   #c {
+   	background:#3E9D37;
+   	position:relative;
+  	left: 690px;
+   }

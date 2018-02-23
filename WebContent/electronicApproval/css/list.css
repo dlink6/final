@@ -1,0 +1,16 @@
+@charset "EUC-KR";
+	#approvalList > thead > tr > th,
+	#approvalList > tbody > tr > th,
+    #approvalList > tfoot > tr > th,
+    #approvalList > thead > tr > td,
+    #approvalList > tbody > tr > td,
+    #approvalList > tfoot > tr > td{
+		text-align:center;	
+	}
+	.listShow{
+		display:none;
+	}
+	
+	a:active{
+		background-color:#DFDFDF !important;
+	}

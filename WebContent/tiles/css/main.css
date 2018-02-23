@@ -1,0 +1,108 @@
+@charset "EUC-KR";
+
+
+	.panel-title > a:hover{
+		text-size : 0.9em;
+		text-decoration : none;
+	}
+	
+/* 달력 */
+ 	#calendar > div.fc-view-container{
+		font-size:13px !important;	
+	}
+	#calendar{
+		width:100%;
+	}
+	#calendar > div.fc-view-container > div > table > tbody > tr > td > div{
+		height:260px !important;
+		overflow-y:hidden !important;
+	}	
+	#calendar > div.fc-toolbar.fc-header-toolbar{
+		background-color : #5caceb;
+		margin-bottom : 0;
+		height : 45px;
+		border-radius: 3px 3px 0 0;
+	}
+	#calendar > div.fc-toolbar.fc-header-toolbar > div.fc-center > h2{
+		font-family : Godo;
+		font-size:1.3em;
+		
+		color : white;
+		cursor:pointer;
+		text-align : left;
+		margin-top: 12px;
+		margin-left: 10px;
+	}
+	
+/* 프로젝트 그래프 */
+/* Bar Graph Class */
+.barGraph {
+  position: relative;
+  width: 100%;
+  height: auto;
+  margin-bottom: 50px;
+}
+.graph {
+  position: relative;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  width: calc(96%);
+  left: 4%;
+}
+.graph-barBack {
+  border-radius: 2px;
+  background: #DAE4EB;
+  margin-bottom: 10px;
+  display: block;
+}
+.graph-bar {
+  background-color: #01DFD7;
+  -webkit-transition: all 1s ease-out;
+  -moz-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  transition: all 1s ease-out;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  position: relative;
+  z-index: 9999;
+  display: block;
+  height: 20px;
+  width: 0%;
+}
+.graph-bar:hover {
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  background: #428D92;
+}
+.graph-bar:last-child {
+  margin-bottom: 0;
+}
+.graph-bar:after {
+  position: absolute;
+  content: attr(data-value);
+  display: none;
+  font-size: 12px;
+  border-radius: 4px;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  line-height: 20px;
+  height: 20px;
+  padding: 0 10px;
+  margin-left: 5px;
+  left: 100%;
+  top: 0;
+}
+.graph-bar:hover:after {
+  display: block;
+}
+.graph-legend {
+  position: absolute;
+  margin-right: 10px;
+  left: -40px;
+  z-index: 9999;
+}
+

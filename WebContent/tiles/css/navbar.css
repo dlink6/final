@@ -1,0 +1,77 @@
+@charset "EUC-KR";
+@font-face {
+  font-family: 'Godo';
+  font-style: normal;
+  font-weight: 400;
+  src: url('//cdn.jsdelivr.net/korean-webfonts/1/corps/godo/Godo/GodoM.woff2') format('woff2'), url('//cdn.jsdelivr.net/korean-webfonts/1/corps/godo/Godo/GodoM.woff') format('woff');
+}
+	
+	li > a:hover{
+		color:#585858 !important;
+	}
+	
+	#bs-example-navbar-collapse-1 > ul:nth-child(1) > li{
+		/* width:160px; */
+		height:50px;
+	}
+	
+	#bs-example-navbar-collapse-1 > ul:nth-child(1) >li>a,
+	.navbar-brand{
+		
+		height:50px;
+		line-height:1.5;
+		font-size:1.1em;
+	}
+	#bs-example-navbar-collapse-1 > ul:nth-child(1) > li.dropdown.open > ul > li> a{
+		font-size:0.9em;
+	}
+	
+	#body1 > div >div > table > tbody > tr > td,
+	#body2 > div> div > table > tbody > tr>td
+	{
+		text-align:center;
+		
+	}
+	
+	
+	
+	#body1 > div >div> table > tbody > tr > th,
+	#body2 > div> div > table > tbody > tr>th{
+		text-align:center;
+		
+	}
+	
+	#body1 > div:nth-child(1) > div > div,
+	#body2 > div:nth-child(1) > div > div,
+	#body2 > div:nth-child(2) > div > div{
+		
+	}
+ 	
+ 	#bs-example-navbar-collapse-1 > ul:nth-child(1) > li.dropdown.open > ul{
+ 		margin-top:-1px;
+ 	}
+ 	
+ 	body > nav{
+ 		background-color:#F2F2F2 !important;
+ 		height:50px;
+ 		filter: alpha(opacity=80);
+ 		margin-bottom:0 !important;
+ 	}
+ 	#bs-example-navbar-collapse-1 > ul:nth-child(1) > li > a{
+ 		color:#blue !important;
+ 	}
+ 	body > nav > a{
+ 		color:#76868E !important;
+ 	}
+ 	.navbar{    /* navbar 전체색상 */
+ 		border:0px !important;
+ 		
+ 	}
+ 	.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus{
+ 		background-color:#E6E6E6 !important;
+ 	}
+ 	
+ 	.navbar-right, .navbar-right > .dropdown{
+ 	    height:50px;
+ 	}
+ 	

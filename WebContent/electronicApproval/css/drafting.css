@@ -1,0 +1,23 @@
+@charset "EUC-KR";
+	.drafting > thead > tr > th,
+	.drafting > tbody > tr > th,
+    .drafting > tfoot > tr > th,
+    .drafting > thead > tr > td,
+    .drafting > tbody > tr > td,
+    .drafting > tfoot > tr > td{
+		text-align:center;	
+		border:1px solid black;
+	}
+    .drafting > thead > tr > td,
+    .drafting > tbody > tr > td,
+    .drafting > tfoot > tr > td{
+    	padding:0;
+    }
+    .drafting > thead > tr > td *,
+    .drafting > tbody > tr > td *,
+    .drafting > tfoot > tr > td *{
+    	height:45px;
+    }
+    .listShow{
+    	display:none;
+    }

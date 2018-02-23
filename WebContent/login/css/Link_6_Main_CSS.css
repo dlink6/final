@@ -1,0 +1,94 @@
+@charset "EUC-KR";
+
+@font-face {
+  font-family: 'Godo';
+  font-style: normal;
+  font-weight: 400;
+  src: url('//cdn.jsdelivr.net/korean-webfonts/1/corps/godo/Godo/GodoM.woff2') format('woff2'), url('//cdn.jsdelivr.net/korean-webfonts/1/corps/godo/Godo/GodoM.woff') format('woff');
+}
+	.dropdown-toggle{
+		font-family: 'Godo';
+		font-size:1.3em;
+	}
+	
+	#bs-example-navbar-collapse-1 > ul:nth-child(1) > li{
+		width:160px;
+	}
+	
+	#bs-example-navbar-collapse-1 > ul:nth-child(1) >li>a,
+	.navbar-brand{
+		font-family: 'Godo';
+		height:70px;
+		line-height:2;
+		font-size:1.3em;
+	}
+	#bs-example-navbar-collapse-1 > ul:nth-child(1) > li.dropdown.open > ul > li> a{
+		font-size:1em;
+	}
+	
+	#body1 > div >div > table > tbody > tr > td,
+	#body2 > div> div > table > tbody > tr>td
+	{
+		text-align:center;
+		
+	}
+	
+	
+	
+	#body1 > div >div> table > tbody > tr > th,
+	#body2 > div> div > table > tbody > tr>th{
+		text-align:center;
+		
+	}
+	
+	#body1 > div:nth-child(1) > div > div,
+	#body2 > div:nth-child(1) > div > div,
+	#body2 > div:nth-child(2) > div > div{
+		
+	}
+ 	
+ 	#bs-example-navbar-collapse-1 > ul:nth-child(1) > li.dropdown.open > ul{
+ 		margin-top:-1px;
+ 	}
+ 	
+ 	body > nav{
+ 		background-color:#FAFAFA !important;
+ 		margin-bottom:0 !important;
+ 	}
+ 	#bs-example-navbar-collapse-1 > ul:nth-child(1) > li > a{
+ 		color:#76868E !important;
+ 	}
+ 	body > nav > a{
+ 		color:#76868E !important;
+ 	}
+ 	#bs-example-navbar-collapse-1 > ul.nav.navbar-nav.navbar-right > li > a > b{
+ 		color:red !important;
+ 	}
+ 	.navbar{    /* navbar 전체색상 */
+ 		border:0px !important;
+ 	}
+ 	.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus{
+ 		background-color:#F2F2F2 !important;
+ 	}
+ 	
+ /* 달력 */
+ 	#calendar > div.fc-view-container{
+		font-size:13px !important;	
+	}
+	#calendar{
+		width:100%;
+	}
+	#calendar > div.fc-view-container > div > table > tbody > tr > td > div{
+		height:260px !important;
+		overflow-y:hidden !important;
+	}	
+	#calendar > div.fc-toolbar.fc-header-toolbar{
+		
+		margin:10px;
+	
+	}
+	#calendar > div.fc-toolbar.fc-header-toolbar > div.fc-center > h2{
+		font-family : Godo;
+		font-size:1.3em;
+		cursor:pointer;
+	}

@@ -1,0 +1,23 @@
+@charset "EUC-KR";
+	.resignation > thead > tr > th,
+	.resignation > tbody > tr > th,
+    .resignation > tfoot > tr > th,
+    .resignation > thead > tr > td,
+    .resignation > tbody > tr > td,
+    .resignation > tfoot > tr > td{
+		text-align:center;	
+		border:1px solid black;
+	}
+    .resignation > thead > tr > td,
+    .resignation > tbody > tr > td,
+    .resignation > tfoot > tr > td{
+    	padding:0;
+    }
+    .resignation > thead > tr > td *,
+    .resignation > tbody > tr > td *,
+    .resignation > tfoot > tr > td *{
+    	height:40px;
+    }
+    .listShow{
+    	display:none;
+    }

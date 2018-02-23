@@ -1,0 +1,23 @@
+@charset "EUC-KR";
+	.spendingResolution > thead > tr > th,
+	.spendingResolution > tbody > tr > th,
+    .spendingResolution > tfoot > tr > th,
+    .spendingResolution > thead > tr > td,
+    .spendingResolution > tbody > tr > td,
+    .spendingResolution > tfoot > tr > td{
+		text-align:center;	
+		border:1px solid black;
+	}
+    .spendingResolution > thead > tr > td,
+    .spendingResolution > tbody > tr > td,
+    .spendingResolution > tfoot > tr > td{
+    	padding:0;
+    }
+    .spendingResolution > thead > tr > td *,
+    .spendingResolution > tbody > tr > td *,
+    .spendingResolution > tfoot > tr > td *{
+    	height:40px;
+    }
+    .listShow{
+    	display:none;
+    }

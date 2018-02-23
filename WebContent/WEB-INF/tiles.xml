@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+	<definition name="intranet" template="/layout.jsp">
+		<put-attribute name="title" value="1조인트라넷"/>
+		<put-attribute name="navbar" value="/tiles/navbar.jsp"/>
+		<put-attribute name="body" value="/tiles/main.jsp"/>
+		<put-attribute name="chat" value="/tiles/chat.jsp"/>
+		<put-attribute name="footer" value="/tiles/footer.jsp"/>
+	</definition> 
+	
+	<definition name="electronicApproval" extends="intranet">
+		<put-attribute name="body" value="/electronicApproval/approvalList.jsp"/>
+	</definition>
+		  
+	<definition name="electronicApprovalDetail" extends="intranet">
+		<put-attribute name="body" value="/electronicApproval/approvalListDetail.jsp"/>
+	</definition>
+	
+	<definition name="electronicApprovalDrafting" extends="intranet">
+		<put-attribute name="body" value="/electronicApproval/drafting.jsp"/>
+	</definition>
+	
+	<definition name="electronicApprovalRequestForVacation" extends="intranet">
+		<put-attribute name="body" value="/electronicApproval/requestForVacation.jsp"/>
+	</definition>
+	
+	<definition name="electronicApprovalResignation" extends="intranet">
+		<put-attribute name="body" value="/electronicApproval/resignation.jsp"/>
+	</definition>
+	
+	<definition name="electronicApprovalSpendingResolution" extends="intranet">
+		<put-attribute name="body" value="/electronicApproval/spendingResolution.jsp"/>
+	</definition>
+	
+	<definition name="photoAlbum" extends="intranet">
+		<put-attribute name="body" value="/photoAlbum/photoAlbum.jsp"/>
+	</definition>
+	
+	
+	<!-- 우진 -->
+	<definition name="boardContent" extends="intranet">
+		<put-attribute name="body" value="/board/BoardContent.jsp"/>
+	</definition>
+	<definition name="boardList" extends="intranet">
+		<put-attribute name="body" value="/board/BoardList.jsp"/>
+	</definition>
+	<definition name="boardUpdate" extends="intranet">
+		<put-attribute name="body" value="/board/BoardUpdateForm.jsp"/>
+	</definition>
+	<definition name="boardWrite" extends="intranet">
+		<put-attribute name="body" value="/board/BoardWriteForm.jsp"/>
+	</definition>
+	
+	<!-- 소진 -->
+	<definition name="ReferenceRoom" extends="intranet">
+		<put-attribute name="body" value="/scheduler/ReferenceRoom.jsp"/>
+	</definition>
+	<definition name="scheduler" extends="intranet">
+		<put-attribute name="body" value="/scheduler/Schedule.jsp"/>
+	</definition>
+	
+	<!-- 주형 -->
+	<definition name="pbMain" extends="intranet"> 
+		<put-attribute name="body" value="/ab/pbMain.jsp"/>
+	</definition>
+	<definition name="main02" extends="intranet">
+		<put-attribute name="body" value="/ab/main02.jsp"/>
+	</definition>
+	<definition name="main02Content" extends="intranet">
+		<put-attribute name="body" value="/ab/main02Content.jsp"/>
+	</definition>
+	<definition name="main02Update" extends="intranet">
+		<put-attribute name="body" value="/ab/main02Update.jsp"/>
+	</definition>
+	<definition name="main02Write" extends="intranet">
+		<put-attribute name="body" value="/ab/main02Write.jsp"/>
+	</definition>
+	<definition name="mainWrite" extends="intranet">
+		<put-attribute name="body" value="/ab/mainWrite.jsp"/>
+	</definition>
+	
+	<definition name="PbContentForm" extends="intranet">
+		<put-attribute name="body" value="/pb/PbContentForm.jsp"/>
+	</definition>
+	<definition name="PbDeleteForm" extends="intranet">
+		<put-attribute name="body" value="/pb/PbDeleteForm.jsp"/>
+	</definition>
+	<definition name="PbListForm" extends="intranet">
+		<put-attribute name="body" value="/pb/PbListForm.jsp"/>
+	</definition>
+	<definition name="PbUpdateForm" extends="intranet">
+		<put-attribute name="body" value="/pb/PbUpdateForm.jsp"/>
+	</definition>
+	<definition name="PbWriteForm" extends="intranet">
+		<put-attribute name="body" value="/pb/PbWriteForm.jsp"/>
+	</definition>
+	
+	<!-- 송이 -->
+	<definition name="ModifyUserinfoForm" extends="intranet">
+		<put-attribute name="body" value="/INPUT/ModifyUserinfoForm.jsp"/>
+	</definition>
+	<definition name="UserModifyForm" extends="intranet">
+		<put-attribute name="body" value="/INPUT/UserModifyForm.jsp"/>
+	</definition>
+	<definition name="inputForm" extends="intranet">
+		<put-attribute name="body" value="/INPUT/inputForm.jsp"/>
+	</definition>
+</tiles-definitions>   

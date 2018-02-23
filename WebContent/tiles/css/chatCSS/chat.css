@@ -1,0 +1,17 @@
+@charset "EUC-KR";
+#sidebar-wrapper{
+	overflow-x:hidden;
+}
+#ajaxTableList{
+display: none;
+}
+#ajaxRoom { 
+padding : 0!important;
+
+}
+	.form-group {
+    margin-bottom: 0px;
+}
+.added{
+font-size :20px
+}

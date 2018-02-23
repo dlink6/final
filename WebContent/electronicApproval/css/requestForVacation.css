@@ -1,0 +1,24 @@
+@charset "EUC-KR";
+
+	.requestForVacation > thead > tr > th,
+	.requestForVacation > tbody > tr > th,
+    .requestForVacation > tfoot > tr > th,
+    .requestForVacation > thead > tr > td,
+    .requestForVacation > tbody > tr > td,
+    .requestForVacation > tfoot > tr > td{
+		text-align:center;	
+		border:1px solid black;
+	}
+    .requestForVacation > thead > tr > td,
+    .requestForVacation > tbody > tr > td,
+    .requestForVacation > tfoot > tr > td{
+    	padding:0;
+    }
+    .requestForVacation > thead > tr > td *,
+    .requestForVacation > tbody > tr > td *,
+    .requestForVacation > tfoot > tr > td *{
+    	height:40px;
+    }
+     .listShow{
+    	display:none;
+    }

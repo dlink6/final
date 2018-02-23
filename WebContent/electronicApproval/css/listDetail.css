@@ -1,0 +1,16 @@
+@charset "EUC-KR";
+	.approvalListDetail > thead > tr > th,
+	.approvalListDetail > tbody > tr > th,
+    .approvalListDetail > tfoot > tr > th,
+    .approvalListDetail > thead > tr > td,
+    .approvalListDetail > tbody > tr > td,
+    .approvalListDetail > tfoot > tr > td{
+		text-align:center;	
+		border:1px solid black;	
+	}
+
+    .approvalListDetail > thead > tr > td *,
+    .approvalListDetail > tbody > tr > td *,
+    .approvalListDetail > tfoot > tr > td *{
+    	height:25px;
+    }

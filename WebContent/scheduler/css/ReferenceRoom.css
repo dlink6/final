@@ -1,0 +1,28 @@
+@charset "EUC-KR";
+  #page-wrapper {
+    padding-left: 250px;
+  }
+  
+  #page-content-wrapper {
+    width: 90%;
+    padding: 20px;
+  }
+  
+  #aaa{
+  	margin-left : 53px !important;
+  }
+  
+  #calendar {
+    width: 95%;
+    padding: 50px;
+  }
+  
+  #bu{
+  	width: 90px;
+	height: 30px;
+  	margin: 5px;
+  	padding: 5px;
+  	position: relative;
+    left: 50px;
+  }
+  

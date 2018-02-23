@@ -1,0 +1,15 @@
+@charset "EUC-KR";
+
+body > div.footer > div > div> img{
+	width:150px;
+	height:150px;
+	border-radius:100px;	
+}
+
+
+body > div.footer > div{
+	padding:15px !important;
+}
+body > div.footer > div > div > div:nth-child(2) > h2{
+	margin-left:20px;	
+}
