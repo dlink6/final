@@ -97,7 +97,7 @@ $(document).ready(function(){
 </script>
 
 <div class="container" style="width:55%;">
-<a href="/semi/list.ls" style="text-decoration:none;"><h3>게시판</h3></a>
+<a href="/semi/list.ls" style="text-decoration:none;"><h3>게시판2222(top)</h3></a>
 <table class="table board">
 		<tr>
 			<td class="content_th" style="width:10%; background-color:#FAFAFA"">글번호</td>
