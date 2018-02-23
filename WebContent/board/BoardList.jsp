@@ -38,7 +38,7 @@ $(document).ready(function() {
 	<div class=row>
 <!-- 카테고리 네비게이션 -->
 	<ul class="nav nav-pills board">
- 		<li role="presentation" id="전체보기"><a href="/semi/list.ls">전체</a></li>
+ 		<li role="presentation" id="전체보기"><a href="/semi/list.ls">전체보기</a></li>
   		<li role="presentation" id="공지사항"><a href="/semi/list.ls?board_cat=공지사항">공지사항</a></li>
   		<li role="presentation" class="dropdown" id="부서별소식">
   			<a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" >
